@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "jsx": "react",
+    "lib": [
+      "ES5",
+      "ES2015",
+      "DOM",
+      "ScriptHost"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "typings"
+  ],
+  "include": [
+    "./src/**/*"
+  ]
+}
